@@ -6,6 +6,28 @@
 
 ---
 
+## 1.7.4
+
+`2024-10-15`
+
+[#52](https://github.com/guMcrey/version-rocket/issues/52) (感谢 [wjp980108](https://github.com/wjp980108) 同学的反馈)
+- 🪲 Fix the warning message when the `config.check-origin-specified-files-url` field is not provided.
+
+
+## 1.7.3
+
+`2024-09-19`
+
+[#50](https://github.com/guMcrey/version-rocket/issues/50) (感谢 [Jolie](https://github.com/newives) 同学的反馈)
+- 🪲 修复 `[...new Set(config.checkOriginSpecifiedFilesUrl)] || []` 表达式在 Typescript 中的语法错误
+
+## 1.7.2
+
+`2024-08-09`
+
+[#43](https://github.com/guMcrey/version-rocket/issues/43) (感谢 [Banana-energy](https://github.com/Banana-energy) 同学的建议)
+- 🪲 修复 `unCheckVersion({closeWorker: true})` 时 worker 值未被清空导致再次赋值时不生效的问题
+
 ## 1.7.1
 
 `2023-11-02`

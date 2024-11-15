@@ -6,6 +6,28 @@
 
 ---
 
+## 1.7.4
+
+`2024-10-15`
+
+[#52](https://github.com/guMcrey/version-rocket/issues/52) (Thanks to [wjp980108](https://github.com/wjp980108) for the feedback)
+- 🪲 Fix the `config.check-origin-specified-files-url` 
+
+
+## 1.7.3
+
+`2024-09-19`
+
+[#50](https://github.com/guMcrey/version-rocket/issues/50) (Thanks to [Jolie](https://github.com/newives) for the feedback)
+- 🪲 Fix the syntax error of the expression `[...new Set(config.checkOriginSpecifiedFilesUrl)] || []` in TypeScript.
+
+## 1.7.2
+
+`2024-08-09`
+
+[#43](https://github.com/guMcrey/version-rocket/issues/43) (Thanks to [Banana-energy](https://github.com/Banana-energy) for the suggestion)
+- 🪲 Fixed the issue where the worker value was not cleared when `unCheckVersion({closeWorker: true})` was called, causing it to not work properly when reassigned.
+
 ## 1.7.1
 
 `2023-11-02`
